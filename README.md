@@ -7,12 +7,13 @@ This step in Theme testing correlates to a Ghost export (`json`) file that you c
 ## Getting Setup
 Assuming you've already gotten Ghost set up locally and it is running your theme, here are the steps to setting up the unit test:
 
-1. Download this repo.
-2. Go to the labs section of your Ghost installation's settings (`http://example.com/ghost/settings/labs/`)
-3. Click the red 'Delete' button to clear the database of all existing content, and confirm (this gives us a clean slate)
-4. Click 'Choose File' under Import 
-5. In the resulting file picker, navigate to wherever you downloaded the repo and select the `json` file.
-6. Click the blue `Import` button.
+1. Go to the Staff section, click on the Ghost user if you have one and click on the cog icon (top-right) and delete the Ghost user and posts
+2. Download this repo.
+3. Go to the labs section of your Ghost installation's settings (`http://example.com/ghost/settings/labs/`)
+4. Click the red 'Delete' button to clear the database of all existing content, and confirm (this gives us a clean slate)
+5. Click 'Choose File' under Import 
+6. In the resulting file picker, navigate to wherever you downloaded the repo and select the `json` file.
+7. Click the blue `Import` button.
 
 ## Testing
 Each post or page is usually pretty self explanatory, or has instructions included. Have fun!
